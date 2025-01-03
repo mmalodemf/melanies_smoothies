@@ -1,6 +1,8 @@
 # Import python packages
 import streamlit as st
 from snowflake.snowpark.functions import col
+from snowflake.snowpark import Session
+
 
 # Establish Snowflake session
 @st.cache_resource
